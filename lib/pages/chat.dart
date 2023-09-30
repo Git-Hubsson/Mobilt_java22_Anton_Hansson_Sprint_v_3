@@ -130,7 +130,6 @@ class _ChatState extends State<Chat> {
   }
 
   String getChatDocumentId(String userId1, String userId2) {
-    // Sort the user IDs to ensure consistency in document IDs
     List<String> sortedIds = [userId1, userId2]..sort();
     return '${sortedIds[0]}_${sortedIds[1]}';
   }
