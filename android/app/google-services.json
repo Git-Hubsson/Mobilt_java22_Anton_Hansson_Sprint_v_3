@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "14434383031",
+    "project_id": "chatlator-c53ac",
+    "storage_bucket": "chatlator-c53ac.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:14434383031:android:2ec27d9ce4bdd121694932",
+        "android_client_info": {
+          "package_name": "com.example.chatlator"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "14434383031-3dbcp2bq78i147n5274d3so3f4mujmo5.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.chatlator",
+            "certificate_hash": "e578bf489dabae83b59944e67f62497c295b5db7"
+          }
+        },
+        {
+          "client_id": "14434383031-g19a8iv08f8aeh8v6tcpo6mk36bsn0ga.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCnL1NDtDXAjsglOKx0cdPDGUPlSbReBqg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "14434383031-g19a8iv08f8aeh8v6tcpo6mk36bsn0ga.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
