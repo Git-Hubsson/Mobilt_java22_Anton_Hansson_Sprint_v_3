@@ -103,7 +103,6 @@ class _LoginPageState extends State<LoginPage> {
                 MyButton(
                     text: 'Sign In With Google',
                     onPressed: () async {
-                      // Logga in med Google-konto
                       final User? user = await _handleGoogleSignIn();
                       if (user != null) {
                         Navigate.navigateTo(context, const Home());
