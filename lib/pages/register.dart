@@ -56,7 +56,6 @@ class _RegisterState extends State<Register> {
                     hintText: 'Repeat password',
                     obscureText: true,
                   ),
-
                   // Knapp för att registrera användaren
                   MyButton(
                       text: 'Register',
@@ -66,7 +65,6 @@ class _RegisterState extends State<Register> {
                         final password = passwordController.text;
                         final repeatPassword = repeatPasswordController.text;
                         final username = usernameController.text;
-
                         // Kontrollera om lösenorden matchar
                         if (password != repeatPassword) {
                           ScaffoldMessenger.of(context).showSnackBar(
